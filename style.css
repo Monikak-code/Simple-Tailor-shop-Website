@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.logo{
+    position:sticky;
+    display:flex;
+    flex-direction:column;
+    background-color:grey;
+    color:#000;
+    padding:10px;
+    text-align:center;
+}
+ul{
+    position:sticky;
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+    justify-content:space-evenly;
+    padding:10px;
+    background-color:#000;
+    color:grey;
+    
+}
+a{
+    color:grey;
+    text-decoration:none;
+}
+a:hover
+{
+    cursor:pointer;
+    color:white;
+}
